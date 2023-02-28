@@ -14,7 +14,7 @@ export default function Intro() {
     strings: ['Developer', 'FullStack' ,'MonaChina'] })
    //console.log(textRef)
    }
-  },[])*/
+  },[]) */
 
   return (
     <div className="intro" id="intro">
