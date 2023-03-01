@@ -6,11 +6,17 @@
     position: relative;
 
     .arrow{
-        height: 50px;
+        height: 60px;
         position: absolute;
+        cursor: pointer;
 
         &.left{
-            height: 100px;
+            left: 100px;
+            
+        }
+
+        &.right{
+            right:100px;
             transform: rotateY(180deg);
         }
     }
@@ -20,6 +26,7 @@
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container{
             width: 100vw;
